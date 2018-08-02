@@ -2,6 +2,7 @@
 Find Rules for direct find target in Kaggle Santander Competition
 
 run as:
+~~~
 $ python3 -u build_model.py -r 3 -m model_fold1.pickle
 7 model built.
 303/4459 columns filled in train:
@@ -70,3 +71,4 @@ mean/max rules in matchs is (43.092514/991).
 mean/max stds in no-allcorrect matchs is (3105618.786881/19428571).
 155 matchs is no-correct std>1.
 mean/max stds in no-correct matchs is (5810512.569003/19428571).
+~~~
